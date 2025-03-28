@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutritrack</title>
+    <link rel="stylesheet" href="login_index2.css">
+    <script src="funcionalidadess/login.js" defer></script> 
+</head>
+<body>
+
+<div class="container">
+    <div class="pratosdadireita">
+        <img src="imagens/pratos do login.png" alt="">
+    </div>
+
+    <div class="forms">
+        <div class="logo">
+            <img src="imagenss/Logo.png" alt="">
+        </div>
+        <div class="titulochamativo">
+            <h1 id="titulo">What is your physical activity level?</h1>
+        </div>   
+
+        <div class="informacoes_do_usuario">
+            <div class="etapa_login">
+                <div class="bolinha1"><p id="b1_text">1</p></div>
+                <div class="bolinha2"><p id="b2_text">2</p></div>
+                <div class="bolinha3"><p id="b3_text">3</p></div>
+            </div>
+
+            <form action="" id="form_container">
+                <select name="atividade" id="selecionar" title="Choose your activity level">
+                    <option value="Sedentário">Sedentary</option>
+                    <option value="Levemente ativo">Lightly active</option>
+                    <option value="Moderadamente ativo">Moderately active</option>
+                    <option value="Muito ativo">Very active</option>
+                    <option value="Extremamente ativo">Extremely active</option>
+                </select>
+            </form>
+
+            <div class="labeldoobjetivo">
+                <p>Lose weight</p>
+                <p>Gain weight</p>
+                <p>Maintain weight</p>
+            </div>
+
+            <div class="objetivo">
+                <div class="perder"><img src="imagens/perder.png" alt="" onclick="perder()"></div>
+                <div class="ganhar"><img src="imagens/ganhar.png" alt="" onclick="ganhar()"></div>
+                <div class="manter"><img src="imagens/manter.png" alt="" onclick="manter()"></div>
+            </div>
+        </div>
+
+        <div class="escolher_objetivo">
+            <p id="escolha">What is your goal?</p>
+        </div>
+
+        <div class="proximo">
+            <a href="login_index3.html">  <input type="button" value="Next" onclick="mostrar()"> </a>
+  
+        </div>
+    </div>
+</div>

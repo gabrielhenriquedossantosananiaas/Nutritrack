@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+* {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.menu .header{
+    position: fixed;
+    width: 101%;
+    z-index: 10;
+}
+
+.header .link{
+    text-decoration: none;
+}
+
+.logo{
+    background-color: #073E3C;
+    color: white;
+    font-family: Jaro;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+
+.logo img{
+    height: 85px;
+}
+
+.menu .casa img{
+    height: 25px;
+    background-color: transparent;
+}
+
+.menu{
+    background-color: #073E3C;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-content: center;
+    height: 90px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.menu .link{
+    text-decoration: none;
+    background-color: #073E3C;
+    color: white;
+}
+
+.menu .tituloImportanciaAlim{
+    text-align: justify;
+    top: 30px;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .linha01{
+    background-color: blue;
+    border: 1px solid #000;
+    width: 1050px;
+}
+
+.menu .contImportanciaAlim{
+    top: 40px;
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+}
+
+.menu .imgPiramide img{
+    right: 200px;
+    width: 650px;
+    top: 40px;
+    width: 300px;
+}
+
+.menu .tituloCalculo{
+    color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contCalculo{
+    background-color: #38A459;
+    width: 1050px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.menu .contCalculo .txtTituloCalculo{
+    position: relative;
+    font-size: 28px;
+    top: -30px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contCalculo .txtPesokg{
+    position: relative;
+    top: 95px;
+    right: 350px;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contCalculo .txtAltura{
+    position: relative;
+    top: 65px;
+    right: 150px;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contCalculo .frmCalculo{
+    background-color: #38A459;
+}
+
+.menu .contCalculo .inputPeso{
+    border-radius: 10px;
+    height: 30px;
+    position: relative;
+    bottom: -40px;
+    right: 270px;
+    border-color: transparent;
+    text-align: center;
+}
+
+.menu .contCalculo .inputAltura{
+    border-radius: 10px;
+    height: 30px;
+    position: relative;
+    bottom: -40px;
+    right: 235px;
+    border-color: transparent;
+    text-align: center;
+}
+
+.menu .contCalculo .txtIgual{
+    position: relative;
+    top: -5px;
+    font-size: 35px;
+    color: white;
+    border: hidden;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contCalculo .txtImc{
+    position: relative;
+    top: -90px;
+    right: -250px;
+    font-size: 25px;
+    color: white;
+    border: hidden;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contCalculo .txtImc2{
+    position: relative;
+    top: -80px;
+    right: -250px;
+    font-size: 15px;
+    color: white;
+    border: hidden;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contPriorizar{
+    background-color: #38A459;
+    width: 1050px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.menu .imgFolha{
+    background-color: transparent
+}
+
+.menu .imgFolha img{
+    top: 150px;
+    width: 128px;
+    left: -510px;
+    position: relative;
+    background-color: transparent;
+}
+
+.menu .imgPrato{
+    background-color: transparent;
+}
+
+.menu .imgPrato img{
+    position: relative;
+    top: -140px;
+    right: -380px;
+    background-color: transparent;
+    width: 400px;
+}
+
+.back img{
+    width: 100%;
+    height: auto;
+    background-image: cover;
+    position: relative;
+}
+
+.possi img{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 270px;
+    background-color: transparent;
+    left: 100px;
+}
+
+.possi > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.possi:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.gi img{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 1040px;
+    background-color: transparent;
+    right: 100px;
+}
+
+.gi > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.gi:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTitulopossi{
+    position: absolute;
+    top: 270px;
+    left: 540px;
+    color: white;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtPossi{
+    position: absolute;
+    width: 500px;
+    top: 390px;
+    left: 540px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtTitulogi{
+    position: absolute;
+    top: 1150px;
+    left: 550px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtGi{
+    position: absolute;
+    width: 500px;
+    top: 1265px;
+    left: 520px;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.japa img{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 1900px;
+    background-color: transparent;
+    right: 100px;
+}
+
+.japa > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.japa:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTitulojapa{
+    position: absolute;
+    top: 1950px;
+    right: 500px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtJapa{
+    position: absolute;
+    width: 500px;
+    top: 2060px;
+    left: 510px;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kaw img{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 2690px;
+    background-color: transparent;
+    left: 125px;
+}
+
+.kaw > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.kaw:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTitulokaw{
+    position: absolute;
+    top: 2850px;
+    left: 450px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtKaw{
+    position: absolute;
+    width: 500px;
+    top: 2960px;
+    left: 450px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kaue img{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 3590px;
+    background-color: transparent;
+    right: 125px;
+}
+
+.kaue > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.kaue:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTitulokaue{
+    position: absolute;
+    top: 3750px;
+    right: 700px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtKaue{
+    position: absolute;
+    width: 500px;
+    top: 3870px;
+    right: 720px;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ana img{
+    position: absolute;
+    width: 700px;
+    height: auto;
+    top: 4450px;
+    background-color: transparent;
+    left: -25px;
+}
+
+.ana > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.ana:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTituloana{
+    position: absolute;
+    top: 4520px;
+    left: 500px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtAna{
+    position: absolute;
+    width: 500px;
+    top: 4630px;
+    left: 500px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rai img{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 5190px;
+    background-color: transparent;
+    right: 125px;
+}
+
+.rai > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.rai:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTitulorai{
+    position: absolute;
+    top: 5400px;
+    right: 520px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtRai{
+    position: absolute;
+    width: 500px;
+    top: 5520px;
+    right: 530px;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    width: 100%;
+    height: 8vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #073E3C;
+    z-index: 10;
+}
+
+
+#text{
+    background-color: transparent;
+    font-size: 1.2vw;
+    z-index: 10;
+}
+
+.menu .contPriorizar .txtPriz{
+    position: relative;
+    top: -390px;
+    right: 430px;
+    font-size: 22.5px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contPriorizar .txtEvitar{
+    position: relative;
+    top: -260px;
+    right: -50px;
+    font-size: 22.5px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contPriorizar .txtPrizCont{
+    position: relative;
+    top: -420px;
+    right: 380px;
+    font-size: 20px;
+    background-color: transparent;
+    color: red;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contPriorizar .txtEvitarCont{
+    position: relative;
+    top: -510px;
+    right: 45px;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contPriorizar .txtEvitar{
+    position: relative;
+    top: -420px;
+    right: 50px;
+    font-size: 22.5px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.anemia img{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 5800px;
+    background-color: transparent;
+    left: 100px;
+}
+
+.anemia > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.anemia:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTituloanemia{
+    position: absolute;
+    top: 6200px;
+    left: 370px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtAnemia{
+    position: absolute;
+    width: 500px;
+    top: 6320px;
+    left: 370px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,220 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  flex-start;
+    background-color: #073E3C;
+    height: 100%;
+    width: 100%;
+}
+
+.pratosdadireita{
+    position: relative;
+    right: 20%;
+    height: 100vw;
+    width: 20%;
+}
+
+.pratosdadireita img{
+    height: 100%;
+    width: 130%;
+}
+
+.forms{
+ position: relative;
+    right: 8%;
+    width: 50%;
+    height: auto;
+}
+
+.forms .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 3%;
+}
+
+.logo img{
+    height:auto;
+    width: 40%;
+}
+
+#titulo{
+position: relative;
+left: 30%;
+color: white;
+}
+
+.informacoes_do_usuario  form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.etapa_login{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 16%;
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 0.5vw;
+    margin-bottom: 6%;
+}
+
+.etapa_login .bolinha1{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 2vw;
+    width: 10%;
+    position: relative;
+    bottom: 0.8vw;
+    right: 2%;
+    border-radius: 50%;
+}
+
+#b1_text{
+    position: relative;
+
+}
+
+
+.etapa_login .bolinha2{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 2vw;
+    width: 10%;
+    position: relative;
+    bottom: 0.8vw;
+    left: 35%;
+    border-radius: 50%;
+}
+
+
+.etapa_login .bolinha3{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 2vw;
+    width: 10%;
+    position: relative;
+    bottom: 0.8vw;
+    left: 75%;
+    border-radius: 50%;
+}
+
+
+
+.informacoes_do_usuario form input{
+
+    border-radius: 100vw;
+    height: 4vw;
+    margin-bottom: 5%;
+    border: none;
+    padding-left: 5%;
+}
+
+input:focus{
+border: none;
+}
+
+.generos{
+    margin-top: 15%;
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 100%;
+}
+
+.homem{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vw;
+    background-color: rgb(255, 255, 255,0.5);
+    height: 100%;
+    width: 40%;
+}
+
+.mulher{
+    border-radius: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255,0.5);
+    height: 100%;
+    width: 40%;
+}
+
+.homem img{
+    height: 80%;
+    width: 80%;
+}
+
+.mulher img{
+    height: 100%;
+    width: 60%;
+}
+
+.homem:hover, .mulher:hover{
+    border: 3px solid #000000;
+    box-shadow: 0 0 15px #ffffff;
+    scale: 1.05;
+}
+
+.escolher_genero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 33vw;
+}
+
+#escolha{
+    color: white;
+    font-size: 2vw;
+}
+
+#form_container{
+    margin-top: 10%;
+}
+
+.proximo{
+    position: relative;
+    left: 30vw;
+    bottom: 3vw;
+}
+
+.proximo input{
+    height: 3vw;
+    width: 15vw;
+    border-radius: 50vw;
+}

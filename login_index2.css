@@ -1,0 +1,261 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-shadow: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  flex-start;
+    background-color: #073E3C;
+    height: 100%;
+    width: 100%;
+}
+
+.pratosdadireita{
+    position: relative;
+    right: 20%;
+    height: 100vw;
+    width: 20%;
+}
+
+.pratosdadireita img{
+    height: 100%;
+    width: 130%;
+}
+
+.forms{
+ margin-top: 7%;
+ position: relative;
+    right: 2%;
+    width: 50%;
+    height: auto;
+}
+
+.forms .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 3%;
+}
+
+.logo img{
+    height:auto;
+    width: 40%;
+}
+
+#titulo{
+position: relative;
+left: 10%;
+color: white;
+}
+
+.informacoes_do_usuario  form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.etapa_login{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 16%;
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 0.5vw;
+    margin-bottom: 6%;
+}
+
+.etapa_login .bolinha1{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 2vw;
+    width: 10%;
+    position: relative;
+    bottom: 0.8vw;
+    right: 2%;
+    border-radius: 50%;
+}
+
+#b1_text{
+    position: relative;
+
+}
+
+
+.etapa_login .bolinha2{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 2vw;
+    width: 10%;
+    position: relative;
+    bottom: 0.8vw;
+    left: 35%;
+    border-radius: 50%;
+}
+
+
+.etapa_login .bolinha3{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 2vw;
+    width: 10%;
+    position: relative;
+    bottom: 0.8vw;
+    left: 75%;
+    border-radius: 50%;
+}
+
+
+#selecionar{
+    height: 4vw;
+    padding: 2%;
+    font-size: 1vw;
+    border-radius: 10px;
+}
+
+option{
+  background-color: #f0f0f0;
+  color: #073E3C;
+  font-size: 1rem;
+}
+
+option:checked {
+    background-color: #1cb624;
+    color: white;
+  }
+
+input:focus{
+border: none;
+}
+
+.objetivo{
+    margin-top: 4%;
+    display: flex;
+    gap: 4%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 22vw;
+    width: 100%;
+}
+
+.perder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vw;
+    background-color: rgb(255, 255, 255,0.5);
+    height: 100%;
+    width: 40%;
+}
+
+.ganhar{
+    border-radius: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255,0.5);
+    height: 100%;
+    width: 40%;
+}
+
+.manter{
+    border-radius: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255,0.5);
+    height: 100%;
+    width: 40%;
+}
+
+.perder img{
+    height: 100%;
+    width: 110%;
+}
+
+.ganhar img{
+    height: 90%;
+    width: 65%;
+}
+
+.manter img{
+    height: 90%;
+    width: 80%;
+}
+
+
+.perder:hover, .ganhar:hover,.manter:hover{
+    border: 3px solid #000000;
+    box-shadow: 0 0 15px #ffffff;
+    scale: 1.05;
+}
+
+.escolher_objetivo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 29vw;
+}
+
+#escolha{
+    color: white;
+    font-size: 2vw;
+}
+
+#form_container{
+    margin-top: 10%;
+}
+
+.proximo{
+    position: relative;
+    left: 35vw;
+    top: 1vw;
+}
+
+.proximo input{
+    height: 3vw;
+    width: 15vw;
+    border-radius: 50vw;
+}
+
+.labeldoobjetivo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 17%;
+}
+
+.labeldoobjetivo p{
+    position: relative;
+    top: 30vw;
+    font-size: 1.8vw;
+    color: white;
+}

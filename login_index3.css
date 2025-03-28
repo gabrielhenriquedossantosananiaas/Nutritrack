@@ -1,0 +1,231 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-shadow: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  flex-start;
+    background-color: #073E3C;
+    height: 100%;
+    width: 100%;
+}
+
+.pratosdadireita{
+    position: relative;
+    right: 20%;
+    height: 100vw;
+    width: 20%;
+}
+
+.pratosdadireita img{
+    height: 100%;
+    width: 130%;
+}
+
+.forms{
+ margin-top: 2%;
+ position: relative;
+    right: 2%;
+    width: 45%;
+    height: auto;
+}
+
+.forms .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 3%;
+}
+
+.logo img{
+    height:auto;
+    width: 40%;
+}
+
+
+.informacoes_do_usuario  form{
+    display: flex;
+    flex-direction: column;
+}
+
+.etapa_login{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 16%;
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 0.5vw;
+    margin-bottom: 6%;
+}
+
+.etapa_login .bolinha1{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 2vw;
+    width: 10%;
+    position: relative;
+    bottom: 0.8vw;
+    right: 2%;
+    border-radius: 50%;
+}
+
+#b1_text{
+    position: relative;
+
+}
+
+
+.etapa_login .bolinha2{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 2vw;
+    width: 10%;
+    position: relative;
+    bottom: 0.8vw;
+    left: 35%;
+    border-radius: 50%;
+}
+
+
+.etapa_login .bolinha3{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 2vw;
+    width: 10%;
+    position: relative;
+    bottom: 0.8vw;
+    left: 75%;
+    border-radius: 50%;
+}
+
+
+
+
+
+input:focus{
+border: none;
+}
+
+
+
+#form_container{
+    margin-top: 10%;
+}
+
+#input1{
+    height: 4vw;
+    border-radius: 10vw;
+    background-color: white;
+    color:  #073E3C;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4vw;
+    
+}
+
+#redes{
+    margin-top: 4%;
+    height: 90%;
+    width: 40%;
+}
+
+#input2{
+    margin-top: 5%;
+    height: 4vw;
+    border-radius: 10vw;
+    background-color: white;
+    color:  #073E3C;
+}
+
+
+#input1:hover,#input2:hover{
+    background-color: #a3a3a3;
+}
+
+
+#input3{
+    padding-left: 5%;
+    border: 3px solid white;
+    margin-top: 5%;
+    height: 3.5vw;
+    border-radius: 10vw;
+    background-color: transparent;
+    color:  #ffffff;
+}
+
+#input4{
+    padding-left: 5%;
+    margin-top: 5%;
+    border: 3px solid white;
+    height: 3.5vw;
+    border-radius: 10vw;
+    background-color: transparent;
+    color:  #ffffff;
+}
+
+#ck{
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 2vw;
+    width: 2vw;
+}
+.lembrar{
+    margin-top: -4.5%;
+    margin-left: 8%;
+    color: white;
+}
+
+#input5{
+    padding-left: 5%;
+    border: 3px solid white;
+    margin-top: 5%;
+    height: 5vw;
+    width: 70%;
+    margin-left: 14%;
+    border-radius: 10vw;
+    background-color: rgb(69, 141, 69);
+    color:  #ffffff;
+    font-size: 2vw;
+
+}
+
+#input5:hover{
+    padding-left: 5%;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 5%;
+    height: 5vw;
+    width: 70%;
+    margin-left: 14%;
+    border-radius: 10vw;
+    background-color: rgb(87, 172, 87);
+    color:  #ffffff;
+    font-size: 2vw;
+
+}
